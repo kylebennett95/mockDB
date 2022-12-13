@@ -1,0 +1,193 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Kyle Bennett",
+      "email": "kyle@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "John Behman",
+      "email": "john@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "name": "Alex Cueto",
+      "email": "alex@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "name": "Hannah Greene",
+      "email": "hannah@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "name": "Demin Zawity",
+      "email": "demin@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "name": "Geo Cueto",
+      "email": "geo@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 7,
+      "name": "Nathan Belete",
+      "email": "nathan@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 8,
+      "name": "Daniel Behman",
+      "email": "daniel@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 9,
+      "name": "Jasper Belete",
+      "email": "jasper@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 10,
+      "name": "Trevor Guinn",
+      "email": "trevor@gmail.com",
+      "isStaff": false
+    }
+  ],
+  "attractions": [
+    {
+      "id": 1,
+      "attractionName": "Celebrate Reading!",
+      "description": "Follow the Celebrate Reading map, as it takes visitors through the Zoo to hear different storybooks read at various reading stops. During the event enjoy activities for young reading enthusiasts and animal encounters throughout the Zoo (weather dependent).",
+      "date": "11/30/2022",
+      "isSaved": false
+    },
+    {
+      "id": 2,
+      "attractionName": "Zoo Lights at Night",
+      "description": "Visit the country's largest Chinese lantern festival featuring colorful scenes of more than 1,000 custom-made silk lanterns!",
+      "date": "2022-11-03",
+      "isSaved": false
+    },
+    {
+      "id": 3,
+      "attractionName": "Kyle's Monkey Fights!",
+      "description": "Ring in the new year watching our primates duke it out. This event will be narrated by our very own Kyle Bennett! Addmission covers the whole seat, but you will only need the edge!",
+      "date": "2022-11-30",
+      "isSaved": false
+    },
+    {
+      "id": 4,
+      "attractionName": "Love at the Zoo!",
+      "description": "Enjoy Valentine's day themed scenes, arts and crafts activities with your loved ones, special animal shows, and more at Nashville's favorite family Valentine's Day event!",
+      "date": "02/14/2023",
+      "isSaved": false
+    },
+    {
+      "id": 5,
+      "attractionName": "Salsa Dancing with Flamingos!",
+      "description": "Come to our zoo to learn how to salsa from Ms. Alex Cueto! Strut your stuff with our beautiful flamingos!",
+      "date": "06/23/2023",
+      "isSaved": false
+    },
+    {
+      "id": 6,
+      "attractionName": "Baking with Meerkats",
+      "description": "Learn how to bake with perfect wedding cake with Mr. John Behman! Make sure your baking partner doesn't leave any whisker prints on your cake!",
+      "date": "08/18/2023",
+      "isSaved": false
+    },
+    {
+      "id": 7,
+      "attractionName": "Boo at the Zoo!",
+      "description": "Enjoy fall-themed scenes and activities, trick-or-treating for the kids, special animal shows and more at Nashville's favorite family Halloween event!",
+      "date": "10/29/2023",
+      "isSaved": false
+    }
+  ],
+  "patronsAttractions": [
+    {
+      "id": 1,
+      "usersId": 6,
+      "attractionsId": 4
+    },
+    {
+      "id": 2,
+      "usersId": 7,
+      "attractionsId": 3
+    },
+    {
+      "id": 3,
+      "usersId": 9,
+      "attractionsId": 2
+    },
+    {
+      "id": 4,
+      "usersId": 6,
+      "attractionsId": 2
+    },
+    {
+      "id": 5,
+      "usersId": 7,
+      "attractionsId": 5
+    },
+    {
+      "id": 6,
+      "usersId": 10,
+      "attractionsId": 7
+    },
+    {
+      "id": 7,
+      "usersId": 8,
+      "attractionsId": 6
+    },
+    {
+      "id": 8,
+      "usersId": 6,
+      "attractionsId": 6
+    },
+    {
+      "userId": 1,
+      "attractionsId": 7,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "attractionsId": 3,
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "commentDescription": "Kyle's Monkey fights was a blast! IThe highlight of the night was watching the monkeys throw bananas at Kyle!",
+      "attractionsId": 3,
+      "usersId": 6
+    },
+    {
+      "id": 2,
+      "commentDescription": "It was SO much fun dancing with the flamingos! Alex was an incredible teacher!",
+      "attractionsId": 5,
+      "usersId": 9
+    },
+    {
+      "id": 3,
+      "commentDescription": "John was so much fun in class! He helped me bake my very own wedding cake! He was so patient and kind with me, even though I set the kitchen on fire.",
+      "attractionsId": 6,
+      "usersId": 10
+    },
+    {
+      "id": 4,
+      "commentDescription": "My boyfriend and I had the best, most romantic time! We made arts and crafts together and had a candle lit picnic next to the zebras. Will definitely come back again next year!",
+      "attractionsId": 4,
+      "usersId": 7
+    }
+  ]
+}
